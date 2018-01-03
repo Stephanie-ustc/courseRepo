@@ -19,7 +19,25 @@ gedit .bashrc # open .bashrc under ~/
 
 paste the following behind source /opt/ros/indigo/setup.bash:
 
->ROS_WORKSPACE=$HOME/ROS_WORKSPACE 
->export ROS_WORKSPACE 
->ROS_PACKAGE_PATH=$ROS_WORKSPACE:$ROS_PACKAGE_PATH
->export ROS_PACKAGE_PATH 
+> ROS_WORKSPACE=$HOME/ROS_WORKSPACE
+ 
+> export ROS_WORKSPACE 
+
+> ROS_PACKAGE_PATH=$ROS_WORKSPACE:$ROS_PACKAGE_PATH
+
+> export ROS_PACKAGE_PATH 
+
+# Add SSH key to your github
+Follow this intruction, 
+> https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+
+If not working, go to your folder with use interface or
+> ll
+
+Then, go to .git/config, change
+> url = http://github.com/path/to/repository
+to
+> url = ssh://git@github.com/path/to/repository
+Then, it should work.
+
+
