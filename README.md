@@ -6,7 +6,8 @@ Before start, please follow the instruction to install ROS:
 
 - For other distribution of ROS, please search google with: ROS + [dirstribution](http://wiki.ros.org/Distributions) + install
 
-# How to creat a ROS Workspace, it is more convenient than catkin_workspace
+# Pre-materials
+## How to creat a ROS Workspace, it is more convenient than catkin_workspace
 1. First step:
 
 > cd ~/ 
@@ -30,11 +31,11 @@ Then, paste the following behind source /opt/ros/indigo/setup.bash:
 Open a new terminal, try:
 > roscd
 
-# Add SSH key to your github
+## Add SSH key to your github
 Follow this intruction, 
 > https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
-If not working, go to your folder with use interface or
+If not working, go to your folder with use interface or go to the /path/of/the/folder in terminal execute:
 > ll
 
 Then, go to .git/config, change
@@ -43,4 +44,9 @@ to
 > url = ssh://git@github.com/path/to/repository
 Then, it should work.
 
+# Course Contents
+## [第一讲: SLAM概论和架构](https://github.com/EricLYang/courseRepo/tree/master/1_Introduction)
+> 
 
+## [第二讲: SLAM基本理论一：坐标系、刚体运动和李群]()  
+> 
