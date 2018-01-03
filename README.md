@@ -1,4 +1,4 @@
-### courseRepo
+### CourseRepo
 This folder contains the files for SLAM Robotics & Autonomous Driving course, this course mostly based on: Ubuntu (I use [14.04](http://releases.ubuntu.com/14.04/)) with [ROS Indigo](http://wiki.ros.org/indigo).
 
 Before start, please follow the instruction to install ROS:
@@ -47,5 +47,5 @@ Then, it should work.
 #### [第一讲: SLAM概论和架构](https://github.com/EricLYang/courseRepo/tree/master/1_Introduction)
 > 
 
-#### [第二讲: SLAM基本理论一：坐标系、刚体运动和李群]()  
+#### [第二讲: SLAM基本理论一：坐标系、刚体运动和李群](https://github.com/EricLYang/courseRepo/tree/master/2_class)  
 > 
