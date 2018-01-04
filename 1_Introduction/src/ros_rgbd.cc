@@ -89,10 +89,11 @@ int main(int argc, char **argv)
 
     ros::NodeHandle nh;
     
+    cout << " out " << argv[1] << " " << argv[2] << " " << argv[3] ;
 
-    message_filters::Subscriber<sensor_msgs::Image> rgb_sub(nh, "/camera/rgb/image_raw", 1);
-    message_filters::Subscriber<sensor_msgs::Image> depth_sub(nh, "camera/depth_registered/image_raw", 1);
-    message_filters::Subscriber<sensor_msgs::CameraInfo> info_camera_sub(nh,"/camera/depth/camera_info", 1);
+    message_filters::Subscriber<sensor_msgs::Image> rgb_sub(nh, argv[1], 1);
+    message_filters::Subscriber<sensor_msgs::Image> depth_sub(nh, argv[2], 1);
+    message_filters::Subscriber<sensor_msgs::CameraInfo> info_camera_sub(nh, argv[3], 1);
     
     // Create a ROS publisher for the output point cloud
     pub = nh.advertise<sensor_msgs::PointCloud2> ("/RGBD/point_cloud", 1);

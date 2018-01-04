@@ -1,4 +1,4 @@
-/home/ericyanng/ROS_WORKSPACE/slamCourse/1_Introduction/build/CMakeFiles/RGBD.dir
+/home/ericyanng/ROS_WORKSPACE/slamCourse/1_Introduction/build/CMakeFiles/RGBD_demo.dir
 /home/ericyanng/ROS_WORKSPACE/slamCourse/1_Introduction/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir
 /home/ericyanng/ROS_WORKSPACE/slamCourse/1_Introduction/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir
 /home/ericyanng/ROS_WORKSPACE/slamCourse/1_Introduction/build/CMakeFiles/ROSBUILD_gensrv_cpp.dir

@@ -32,7 +32,7 @@ void GrabRGBD(const sensor_msgs::ImageConstPtr& msgRGB,const sensor_msgs::ImageC
 	cv::Vec3b color(255,0,0);
 	for(int y=0;y<image_color.rows;y++) {
 		for(int x=0;x<image_color.cols;x++) {
-			float depth = image_depth.at<short int>(cv::Point(x,y)) / 1000.0;
+			float depth = image_depth.at<short int>(cv::Point(x,y));// / 1000.0;
 
 			if( depth == 0) {
 				image_color.at<cv::Vec3b>(cv::Point(x,y)) = cv::Vec3b(0,0,255);

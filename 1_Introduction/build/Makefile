@@ -140,17 +140,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named RGBD
+# Target rules for targets named RGBD_demo
 
 # Build rule for target.
-RGBD: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 RGBD
-.PHONY : RGBD
+RGBD_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RGBD_demo
+.PHONY : RGBD_demo
 
 # fast build rule for target.
-RGBD/fast:
-	$(MAKE) -f CMakeFiles/RGBD.dir/build.make CMakeFiles/RGBD.dir/build
-.PHONY : RGBD/fast
+RGBD_demo/fast:
+	$(MAKE) -f CMakeFiles/RGBD_demo.dir/build.make CMakeFiles/RGBD_demo.dir/build
+.PHONY : RGBD_demo/fast
 
 #=============================================================================
 # Target rules for targets named ROSBUILD_genmsg_cpp
@@ -443,7 +443,7 @@ src/ros_rgbd.o: src/ros_rgbd.cc.o
 
 # target to build an object file
 src/ros_rgbd.cc.o:
-	$(MAKE) -f CMakeFiles/RGBD.dir/build.make CMakeFiles/RGBD.dir/src/ros_rgbd.cc.o
+	$(MAKE) -f CMakeFiles/RGBD_demo.dir/build.make CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o
 .PHONY : src/ros_rgbd.cc.o
 
 src/ros_rgbd.i: src/ros_rgbd.cc.i
@@ -451,7 +451,7 @@ src/ros_rgbd.i: src/ros_rgbd.cc.i
 
 # target to preprocess a source file
 src/ros_rgbd.cc.i:
-	$(MAKE) -f CMakeFiles/RGBD.dir/build.make CMakeFiles/RGBD.dir/src/ros_rgbd.cc.i
+	$(MAKE) -f CMakeFiles/RGBD_demo.dir/build.make CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.i
 .PHONY : src/ros_rgbd.cc.i
 
 src/ros_rgbd.s: src/ros_rgbd.cc.s
@@ -459,7 +459,7 @@ src/ros_rgbd.s: src/ros_rgbd.cc.s
 
 # target to generate assembly for a file
 src/ros_rgbd.cc.s:
-	$(MAKE) -f CMakeFiles/RGBD.dir/build.make CMakeFiles/RGBD.dir/src/ros_rgbd.cc.s
+	$(MAKE) -f CMakeFiles/RGBD_demo.dir/build.make CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.s
 .PHONY : src/ros_rgbd.cc.s
 
 # Help Target
@@ -468,7 +468,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... RGBD"
+	@echo "... RGBD_demo"
 	@echo "... ROSBUILD_genmsg_cpp"
 	@echo "... ROSBUILD_genmsg_lisp"
 	@echo "... ROSBUILD_gensrv_cpp"

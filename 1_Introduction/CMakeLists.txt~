@@ -34,6 +34,7 @@ find_package(PCL REQUIRED COMPONENTS common io)
 
 include_directories(
 ${PROJECT_SOURCE_DIR}
+${PCL_INCLUDE_DIRS}
 )
 
 set(LIBS 
@@ -48,6 +49,6 @@ src/ros_rgbd.cc
 )
 
 target_link_libraries(RGBD
-${LIBS}
+${LIBS} ${PCL_COMMON_LIBRARIES} ${PCL_IO_LIBRARIES}
 )
 

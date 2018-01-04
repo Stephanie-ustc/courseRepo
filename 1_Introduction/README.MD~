@@ -5,6 +5,7 @@ This course cover the basic introduction of SLAM, about the definition of the pr
 I attach the follow usefull links for your consideration:
 - Albert-Ludwigs-Universität Freiburg [SLAM Course](http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/) Documents
 - ICRA 2016 [SLAM tutorial](http://www.dis.uniroma1.it/~labrococo/tutorial_icra_2016/)
+- CCNY [Advanced Mobile ROBOTICS](http://www-ee.ccny.cuny.edu/www/web/jxiao/G3300-s17.htm) Course
 - Using [MPRT](https://www.mrpt.org/) platform to simulate [SLAM](https://www.mrpt.org/List_of_SLAM_algorithms)
 
 
@@ -27,10 +28,11 @@ I attach the follow usefull links for your consideration:
 2. Download the data base from [TUM](https://vision.in.tum.de/data/datasets/rgbd-dataset/download)
 
 > - cd  ..
-> wget https://vision.in.tum.de/rgbd/dataset/freiburg1/rgbd_dataset_freiburg1_room.bag
+> - wget https://vision.in.tum.de/rgbd/dataset/freiburg1/rgbd_dataset_freiburg1_room.bag
 
 3. Run 
 
+> - roscore
 > - rosbag play rgbd_dataset_freiburg1_room.bag
 > - ./RGBD_demo
 > - rosrun rviz rviz
