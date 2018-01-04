@@ -12,6 +12,7 @@ I attach the follow usefull links for your consideration:
 
 Open Source Projects:
 
+> -  [PTAM](https://github.com/lrse/sptam)
 > -  [ORB-SLAM](https://github.com/raulmur/ORB_SLAM)
 > -  [LSD-SLAM](https://github.com/tum-vision/lsd_slam)
 > -  [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2)
