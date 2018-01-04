@@ -10,6 +10,27 @@ I attach the follow usefull links for your consideration:
 
 ### Reference Papers
 
-> Please check the reference Folder, two very important papers are:
-> - Hugh Durrant-Whyte & Tim Bailey. “Simultaneous Localisation and Mapping (SLAM): Part I The Essential Algorithms“, (2006) (PDF)
-> - Tim Bailey & Hugh Durrant-Whyte and . “Simultaneous Localisation and Mapping (SLAM): Part II State of the Art“, (2006) (PDF)
+> Please check the [reference Folder](https://github.com/EricLYang/courseRepo/tree/master/1_Introduction/referencePaper), two very important papers are:
+> - Hugh Durrant-Whyte & Tim Bailey. “Simultaneous Localisation and Mapping (SLAM): Part I The Essential Algorithms“, (2006) ([PDF](https://github.com/EricLYang/courseRepo/blob/master/1_Introduction/referencePaper/10.1.1.128.4195.pdf))
+> - Tim Bailey & Hugh Durrant-Whyte and . “Simultaneous Localisation and Mapping (SLAM): Part II State of the Art“, (2006) ([PDF](https://github.com/EricLYang/courseRepo/blob/master/1_Introduction/referencePaper/10.1.1.108.4153.pdf))
+
+
+### Build By Yourself and RUN
+
+1. Build the project
+
+> - cd build
+> - rm -r *
+> - cmake ..
+> - make -j4
+
+2. Download the data base from [TUM](https://vision.in.tum.de/data/datasets/rgbd-dataset/download)
+
+> - cd  ..
+> wget https://vision.in.tum.de/rgbd/dataset/freiburg1/rgbd_dataset_freiburg1_room.bag
+
+3. Run 
+
+> - rosbag play rgbd_dataset_freiburg1_room.bag
+> - ./RGBD_demo
+> - rosrun rviz rviz
