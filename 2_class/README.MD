@@ -13,6 +13,26 @@ Then, in CMAKE file, add:
 
 Then, you should find eigen3 and link to your project.
 
+#### eigen_example
+
+In this demo project, it illustrate the basic operation of using eigen for pose processing and basic: dot, cross, inverse operation.
+
+> - I have already include the eigen librarires in this folder: if you want to download by your own
+> - download using: git clone https://github.com/eigenteam/eigen-git-mirror.git eigenLibrary
+
+There is no need to compile eigen, just link to your project as: 
+> - include_directories(${PROJECT_SOURCE_DIR}/eigenLibrary)
+
+Then, under eigen_example folder:
+> - cd build
+> - rm -r *
+> - cmake ..
+> - make -j4
+
+If you want to run the executable file:
+
+> - ./eigenDemo
+
 #### Install Sophus
 
 1. Download the file

@@ -1,0 +1,6 @@
+CMAKE_MINIMUM_REQUIRED( VERSION 2.8)
+PROJECT(useSophus)
+FIND_PACKAGE(Sophus REQUIRED)
+INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/../Sophus )
+add_executable(mainSophus mainSophus.cpp)
+#TARGET_LINK_LIBRARIES(mainSophus ${Sophus_LIBRARIES})
