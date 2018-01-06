@@ -45,9 +45,5 @@ Open Source Projects:
 
 > - roscore
 > - rosbag play rgbd_dataset_freiburg1_room.bag
-> - ./RGBD_demo
+> - ./RGBD_demo /camera/rgb/image_color /camera/depth/image /camera/rgb/camera_info /camera/depth/camera_info
 > - rosrun rviz rviz
-
-or just run (uncomment before executing):
-
-> bash run.sh

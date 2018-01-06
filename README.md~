@@ -30,6 +30,13 @@ Then, paste the following behind source /opt/ros/indigo/setup.bash:
 Open a new terminal, try:
 > roscd
 
+### CMake Tutorial
+1. 一本很好的书,感谢作者
+> - [书链接](https://github.com/Akagi201/learning-cmake/tree/master/docs)
+
+2. 一个很好的教程
+> - [链接](https://github.com/Akagi201/learning-cmake)
+
 ### Add SSH key to your github
 Follow this intruction, 
 > https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
@@ -47,5 +54,5 @@ Then, it should work.
 #### [第一讲: SLAM概论和架构](https://github.com/EricLYang/courseRepo/tree/master/1_Introduction)
 > 
 
-#### [第二讲: SLAM基本理论一：坐标系、刚体运动和李群]()  
+#### [第二讲: SLAM基本理论一：坐标系、刚体运动和李群](https://github.com/EricLYang/courseRepo/tree/master/2_class)  
 > 

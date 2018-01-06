@@ -18,6 +18,7 @@
 #include<opencv2/core/core.hpp>
 
 ros::Publisher pub;
+typedef pcl::PointCloud<pcl::PointXYZ> PointCloud;
 
 using namespace std;
 
@@ -53,10 +54,13 @@ void GrabRGBD(const sensor_msgs::ImageConstPtr& msgRGB,const sensor_msgs::ImageC
 	float cy = info_depth_msg->K[5];
 
 	// produce a point cloud
-        pcl::PointCloud<pcl::PointXYZRGBA> pointcloud_msg;
 	sensor_msgs::PointCloud2 pointcloud_msg_r;
 
-	pcl::PointXYZRGBA pt;
+        // produce a point cloud
+	PointCloud::Ptr pointcloud_msg (new PointCloud);
+	pointcloud_msg->header = image_depth_msg->header;
+
+	pcl::PointXYZ pt;
 	for(int y=0;y<image_color.rows;y+=4) {
 		for(int x=0;x<image_color.cols;x+=4) {
 			float depth = image_depth.at<short int>(cv::Point(x,y)) / 1000.0;
@@ -65,21 +69,17 @@ void GrabRGBD(const sensor_msgs::ImageConstPtr& msgRGB,const sensor_msgs::ImageC
 				pt.x = (x - cx) * depth / fx;
 				pt.y = (y - cy) * depth / fy;
 				pt.z = depth;
-
-                                pt.b = (uchar)image_color.at<cv::Vec3b>(cv::Point(x,y))[2];
-			        pt.g = (uchar)image_color.at<cv::Vec3b>(cv::Point(x,y))[0];
-			        pt.r = (uchar)image_color.at<cv::Vec3b>(cv::Point(x,y))[1];
 				//cout << pt.x<<" "<<pt.y<<" "<<pt.z<<endl;
-				pointcloud_msg.points.push_back(pt);
+				pointcloud_msg->points.push_back (pt);
 			}
 		}
 	}
         //transfer pcl to pcls message
-        pcl::toROSMsg(pointcloud_msg, pointcloud_msg_r);
-	pointcloud_msg_r.height = 1;
-        pointcloud_msg_r.header = msgD->header;
-	pointcloud_msg_r.width = pointcloud_msg.points.size();
-	pub.publish (pointcloud_msg_r);
+        //pcl::toROSMsg(pointcloud_msg, pointcloud_msg_r);
+	//pointcloud_msg_r.height = 1;
+        //pointcloud_msg_r.header = msgD->header;
+	//pointcloud_msg_r.width = pointcloud_msg.points.size();
+	pub.publish (pointcloud_msg);
 
         ROS_WARN("Data received......");
 }

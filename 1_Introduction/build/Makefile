@@ -438,29 +438,29 @@ gtest_main/fast:
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-src/ros_rgbd.o: src/ros_rgbd.cc.o
-.PHONY : src/ros_rgbd.o
+src/example.o: src/example.cpp.o
+.PHONY : src/example.o
 
 # target to build an object file
-src/ros_rgbd.cc.o:
-	$(MAKE) -f CMakeFiles/RGBD_demo.dir/build.make CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o
-.PHONY : src/ros_rgbd.cc.o
+src/example.cpp.o:
+	$(MAKE) -f CMakeFiles/RGBD_demo.dir/build.make CMakeFiles/RGBD_demo.dir/src/example.cpp.o
+.PHONY : src/example.cpp.o
 
-src/ros_rgbd.i: src/ros_rgbd.cc.i
-.PHONY : src/ros_rgbd.i
+src/example.i: src/example.cpp.i
+.PHONY : src/example.i
 
 # target to preprocess a source file
-src/ros_rgbd.cc.i:
-	$(MAKE) -f CMakeFiles/RGBD_demo.dir/build.make CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.i
-.PHONY : src/ros_rgbd.cc.i
+src/example.cpp.i:
+	$(MAKE) -f CMakeFiles/RGBD_demo.dir/build.make CMakeFiles/RGBD_demo.dir/src/example.cpp.i
+.PHONY : src/example.cpp.i
 
-src/ros_rgbd.s: src/ros_rgbd.cc.s
-.PHONY : src/ros_rgbd.s
+src/example.s: src/example.cpp.s
+.PHONY : src/example.s
 
 # target to generate assembly for a file
-src/ros_rgbd.cc.s:
-	$(MAKE) -f CMakeFiles/RGBD_demo.dir/build.make CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.s
-.PHONY : src/ros_rgbd.cc.s
+src/example.cpp.s:
+	$(MAKE) -f CMakeFiles/RGBD_demo.dir/build.make CMakeFiles/RGBD_demo.dir/src/example.cpp.s
+.PHONY : src/example.cpp.s
 
 # Help Target
 help:
@@ -497,9 +497,9 @@ help:
 	@echo "... tests"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... src/ros_rgbd.o"
-	@echo "... src/ros_rgbd.i"
-	@echo "... src/ros_rgbd.s"
+	@echo "... src/example.o"
+	@echo "... src/example.i"
+	@echo "... src/example.s"
 .PHONY : help
 
 

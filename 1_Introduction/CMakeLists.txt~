@@ -44,11 +44,11 @@ ${EIGEN3_LIBS}
 
 
 # Node for RGB-D camera
-rosbuild_add_executable(RGBD
-src/ros_rgbd.cc
+rosbuild_add_executable(RGBD_demo
+src/demo.cpp
 )
 
-target_link_libraries(RGBD
+target_link_libraries(RGBD_demo
 ${LIBS} ${PCL_COMMON_LIBRARIES} ${PCL_IO_LIBRARIES}
 )
 

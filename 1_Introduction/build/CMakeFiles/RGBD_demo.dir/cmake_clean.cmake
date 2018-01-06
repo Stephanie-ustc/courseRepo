@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o"
+  "CMakeFiles/RGBD_demo.dir/src/example.cpp.o"
   "../RGBD_demo.pdb"
   "../RGBD_demo"
 )

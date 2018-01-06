@@ -1,10 +1,21 @@
 ### CourseRepo
 This folder contains the files for SLAM Robotics & Autonomous Driving course, this course mostly based on: Ubuntu (I use [14.04](http://releases.ubuntu.com/14.04/)) with [ROS Indigo](http://wiki.ros.org/indigo).
 
+1. Install ROS 
+
 Before start, please follow the instruction to install ROS:
 - For indigo: [Link](http://wiki.ros.org/indigo/Installation), if you use ubuntu, follow this [link](http://wiki.ros.org/indigo/Installation/Ubuntu)
 
 - For other distribution of ROS, please search google with: ROS + [dirstribution](http://wiki.ros.org/Distributions) + install
+
+2. Install Opencv
+
+Please follow this [intruction](http://www.samontab.com/web/2014/06/installing-opencv-2-4-9-in-ubuntu-14-04-lts/)
+
+If you need a disfferent distribution, execute
+
+> - git checkout distribution
+
 ### Pre-materials
 #### How to creat a ROS Workspace, it is more convenient than catkin_workspace
 1. First step:
@@ -29,6 +40,13 @@ Then, paste the following behind source /opt/ros/indigo/setup.bash:
 
 Open a new terminal, try:
 > roscd
+
+### CMake Tutorial
+1. 一本很好的书,感谢作者
+> - [书链接](https://github.com/Akagi201/learning-cmake/tree/master/docs)
+
+2. 一个很好的教程
+> - [链接](https://github.com/Akagi201/learning-cmake)
 
 ### Add SSH key to your github
 Follow this intruction, 

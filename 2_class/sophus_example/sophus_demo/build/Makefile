@@ -99,41 +99,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named mainSophus
+# Target rules for targets named sophus_demo
 
 # Build rule for target.
-mainSophus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mainSophus
-.PHONY : mainSophus
+sophus_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sophus_demo
+.PHONY : sophus_demo
 
 # fast build rule for target.
-mainSophus/fast:
-	$(MAKE) -f CMakeFiles/mainSophus.dir/build.make CMakeFiles/mainSophus.dir/build
-.PHONY : mainSophus/fast
+sophus_demo/fast:
+	$(MAKE) -f CMakeFiles/sophus_demo.dir/build.make CMakeFiles/sophus_demo.dir/build
+.PHONY : sophus_demo/fast
 
-mainSophus.o: mainSophus.cpp.o
-.PHONY : mainSophus.o
+src/mainSophus.o: src/mainSophus.cpp.o
+.PHONY : src/mainSophus.o
 
 # target to build an object file
-mainSophus.cpp.o:
-	$(MAKE) -f CMakeFiles/mainSophus.dir/build.make CMakeFiles/mainSophus.dir/mainSophus.cpp.o
-.PHONY : mainSophus.cpp.o
+src/mainSophus.cpp.o:
+	$(MAKE) -f CMakeFiles/sophus_demo.dir/build.make CMakeFiles/sophus_demo.dir/src/mainSophus.cpp.o
+.PHONY : src/mainSophus.cpp.o
 
-mainSophus.i: mainSophus.cpp.i
-.PHONY : mainSophus.i
+src/mainSophus.i: src/mainSophus.cpp.i
+.PHONY : src/mainSophus.i
 
 # target to preprocess a source file
-mainSophus.cpp.i:
-	$(MAKE) -f CMakeFiles/mainSophus.dir/build.make CMakeFiles/mainSophus.dir/mainSophus.cpp.i
-.PHONY : mainSophus.cpp.i
+src/mainSophus.cpp.i:
+	$(MAKE) -f CMakeFiles/sophus_demo.dir/build.make CMakeFiles/sophus_demo.dir/src/mainSophus.cpp.i
+.PHONY : src/mainSophus.cpp.i
 
-mainSophus.s: mainSophus.cpp.s
-.PHONY : mainSophus.s
+src/mainSophus.s: src/mainSophus.cpp.s
+.PHONY : src/mainSophus.s
 
 # target to generate assembly for a file
-mainSophus.cpp.s:
-	$(MAKE) -f CMakeFiles/mainSophus.dir/build.make CMakeFiles/mainSophus.dir/mainSophus.cpp.s
-.PHONY : mainSophus.cpp.s
+src/mainSophus.cpp.s:
+	$(MAKE) -f CMakeFiles/sophus_demo.dir/build.make CMakeFiles/sophus_demo.dir/src/mainSophus.cpp.s
+.PHONY : src/mainSophus.cpp.s
 
 # Help Target
 help:
@@ -142,11 +142,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... mainSophus"
 	@echo "... rebuild_cache"
-	@echo "... mainSophus.o"
-	@echo "... mainSophus.i"
-	@echo "... mainSophus.s"
+	@echo "... sophus_demo"
+	@echo "... src/mainSophus.o"
+	@echo "... src/mainSophus.i"
+	@echo "... src/mainSophus.s"
 .PHONY : help
 
 

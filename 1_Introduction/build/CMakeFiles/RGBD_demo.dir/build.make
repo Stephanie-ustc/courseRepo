@@ -49,89 +49,89 @@ include CMakeFiles/RGBD_demo.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/RGBD_demo.dir/flags.make
 
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: CMakeFiles/RGBD_demo.dir/flags.make
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: ../src/ros_rgbd.cc
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: ../manifest.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/cpp_common/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/rostime/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/roscpp_traits/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/roscpp_serialization/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/catkin/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/genmsg/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/genpy/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/message_runtime/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/gencpp/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/genlisp/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/message_generation/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/rosbuild/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/rosconsole/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/std_msgs/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/rosgraph_msgs/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/xmlrpcpp/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/roscpp/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/geometry_msgs/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/message_filters/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/rosgraph/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/rosclean/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/rospack/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/roslib/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/rosmaster/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/rosout/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/rosparam/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/rosunit/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/roslaunch/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/roslz4/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/rosbag_storage/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/rospy/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/topic_tools/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/rosbag/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/rostopic/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/rosnode/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/rosmsg/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/rosservice/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/roswtf/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/sensor_msgs/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/actionlib_msgs/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/tf2_msgs/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/tf2/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/rostest/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/actionlib/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/tf2_py/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/tf2_ros/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/tf/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/class_loader/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/pluginlib/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/image_transport/package.xml
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o: /opt/ros/indigo/share/cv_bridge/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: CMakeFiles/RGBD_demo.dir/flags.make
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: ../src/example.cpp
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: ../manifest.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/cpp_common/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/rostime/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/roscpp_traits/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/roscpp_serialization/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/catkin/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/genmsg/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/genpy/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/message_runtime/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/gencpp/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/genlisp/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/message_generation/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/rosbuild/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/rosconsole/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/std_msgs/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/rosgraph_msgs/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/xmlrpcpp/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/roscpp/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/geometry_msgs/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/message_filters/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/rosgraph/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/rosclean/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/rospack/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/roslib/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/rosmaster/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/rosout/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/rosparam/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/rosunit/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/roslaunch/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/roslz4/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/rosbag_storage/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/rospy/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/topic_tools/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/rosbag/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/rostopic/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/rosnode/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/rosmsg/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/rosservice/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/roswtf/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/sensor_msgs/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/actionlib_msgs/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/tf2_msgs/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/tf2/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/rostest/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/actionlib/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/tf2_py/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/tf2_ros/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/tf/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/class_loader/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/pluginlib/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/image_transport/package.xml
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o: /opt/ros/indigo/share/cv_bridge/package.xml
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/ericyanng/ROS_WORKSPACE/slamCourse/1_Introduction/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o -c /home/ericyanng/ROS_WORKSPACE/slamCourse/1_Introduction/src/ros_rgbd.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/RGBD_demo.dir/src/example.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/RGBD_demo.dir/src/example.cpp.o -c /home/ericyanng/ROS_WORKSPACE/slamCourse/1_Introduction/src/example.cpp
 
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ericyanng/ROS_WORKSPACE/slamCourse/1_Introduction/src/ros_rgbd.cc > CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.i
+CMakeFiles/RGBD_demo.dir/src/example.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RGBD_demo.dir/src/example.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ericyanng/ROS_WORKSPACE/slamCourse/1_Introduction/src/example.cpp > CMakeFiles/RGBD_demo.dir/src/example.cpp.i
 
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ericyanng/ROS_WORKSPACE/slamCourse/1_Introduction/src/ros_rgbd.cc -o CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.s
+CMakeFiles/RGBD_demo.dir/src/example.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RGBD_demo.dir/src/example.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ericyanng/ROS_WORKSPACE/slamCourse/1_Introduction/src/example.cpp -o CMakeFiles/RGBD_demo.dir/src/example.cpp.s
 
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o.requires:
-.PHONY : CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o.requires
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o.requires:
+.PHONY : CMakeFiles/RGBD_demo.dir/src/example.cpp.o.requires
 
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o.provides: CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o.requires
-	$(MAKE) -f CMakeFiles/RGBD_demo.dir/build.make CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o.provides.build
-.PHONY : CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o.provides
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o.provides: CMakeFiles/RGBD_demo.dir/src/example.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RGBD_demo.dir/build.make CMakeFiles/RGBD_demo.dir/src/example.cpp.o.provides.build
+.PHONY : CMakeFiles/RGBD_demo.dir/src/example.cpp.o.provides
 
-CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o.provides.build: CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o
+CMakeFiles/RGBD_demo.dir/src/example.cpp.o.provides.build: CMakeFiles/RGBD_demo.dir/src/example.cpp.o
 
 # Object files for target RGBD_demo
 RGBD_demo_OBJECTS = \
-"CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o"
+"CMakeFiles/RGBD_demo.dir/src/example.cpp.o"
 
 # External object files for target RGBD_demo
 RGBD_demo_EXTERNAL_OBJECTS =
 
-../RGBD_demo: CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o
+../RGBD_demo: CMakeFiles/RGBD_demo.dir/src/example.cpp.o
 ../RGBD_demo: CMakeFiles/RGBD_demo.dir/build.make
 ../RGBD_demo: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 ../RGBD_demo: /usr/lib/libPocoFoundation.so
@@ -272,7 +272,7 @@ RGBD_demo_EXTERNAL_OBJECTS =
 CMakeFiles/RGBD_demo.dir/build: ../RGBD_demo
 .PHONY : CMakeFiles/RGBD_demo.dir/build
 
-CMakeFiles/RGBD_demo.dir/requires: CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o.requires
+CMakeFiles/RGBD_demo.dir/requires: CMakeFiles/RGBD_demo.dir/src/example.cpp.o.requires
 .PHONY : CMakeFiles/RGBD_demo.dir/requires
 
 CMakeFiles/RGBD_demo.dir/clean:

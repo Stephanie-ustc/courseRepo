@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ericyanng/ROS_WORKSPACE/slamCourse/1_Introduction/src/ros_rgbd.cc" "/home/ericyanng/ROS_WORKSPACE/slamCourse/1_Introduction/build/CMakeFiles/RGBD_demo.dir/src/ros_rgbd.cc.o"
+  "/home/ericyanng/ROS_WORKSPACE/slamCourse/1_Introduction/src/example.cpp" "/home/ericyanng/ROS_WORKSPACE/slamCourse/1_Introduction/build/CMakeFiles/RGBD_demo.dir/src/example.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
